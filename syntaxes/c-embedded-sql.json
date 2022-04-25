@@ -18,6 +18,18 @@
   },
   "patterns": [
     {
+      "begin": "($include)",
+      "end": "(;)",
+      "patterns": [
+      ]
+    },
+    {
+      "begin": "($include)",
+      "end": "\\)",
+      "patterns": [
+      ]
+    },
+    {
       "begin": "(EXEC_SQL\\(|exec_sql\\(|EXEC_sql\\(|exec_SQL\\()",
       "end": "\\)",
       "patterns": [
